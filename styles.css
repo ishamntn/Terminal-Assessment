@@ -1,0 +1,32 @@
+/* ====== Footer Style (standalone) ====== */
+.site-footer {
+  background: #102541;              /* deep navy */
+  color: #cfe6ff;                   /* soft blue text */
+  text-align: center;
+  padding: 40px 20px;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 0 -5px 20px rgba(15, 27, 45, 0.3);
+}
+
+.site-footer h2 {
+  color: #e9f4ff;
+  font-family: 'Merriweather', serif;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.site-footer p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+  color: #a5c5ec;
+}
+
+.site-footer strong {
+  color: #ffffff;
+}
+
+/* optional subtle hover glow for entire footer */
+.site-footer:hover {
+  background: #0e1f39;
+  transition: background 0.3s ease;
+}
